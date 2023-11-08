@@ -1,0 +1,282 @@
+/* Untuk Smartphone */
+@media (max-width: 480px) {
+  /*bagian header*/ 
+  .header-navigation {
+      width: 100%;
+      background-color: rgb(255, 255, 255);
+    }
+
+    .header-nav-logo { 
+      width: 43px;
+      height: 50px;
+      position: relative;
+      overflow: hidden;
+      background-color: rgb(255, 255, 255);
+    }
+
+    .logo{
+      width: 210px;
+      height: 50px;
+    }
+
+
+    .header-nav-menu { 
+      float: left;
+      margin-left: 10px; 
+      background-color: rgb(255, 255, 255);
+    }
+      
+    .header-nav-menu li {
+        width: 100px;
+        float: left;
+    }
+      
+    .header-nav-menu li a {
+        padding: 5px;
+        font-size: 13px;
+      }
+      
+    .header-mtr li {
+        width: 83px;
+        float: left;
+    }
+      
+    .header-mtr li a {
+        font-size: 10px;
+        padding: 10px;
+        font-weight: 100;
+      }
+/*========================== akhir header ==========================================*/
+    
+    /*bagian header*/ 
+    .sidebar {
+      height: 350px;
+      margin-top: 50px;
+    }
+
+    .sidebar-text {
+      width: 280px;
+      height: 150px;
+      margin: 110px 10px;
+    }
+
+    .sidebar-text h1{
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+
+    .sidebar-text h2{
+      font-size: 14px;
+      padding-bottom: 6px;
+    }
+    
+    .sidebar-text a{
+      font-size: 13px;
+      padding: 5px;
+    }
+
+    .img-komputer{ 
+      float: right;
+      margin: 90px 10px;
+      width: 200px;
+      height: 150px;
+    }
+  /*========================== akhir sidebar ==========================================*/  
+  .content-urutan {
+    padding-bottom: 20px;
+  }
+  .judul-step {
+    padding-top: 150px;
+  }
+  .judul-step h1{
+    text-align: center;
+    font-size: 37px;
+    margin: 0px;
+  }
+  
+  .judul-step p{
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 50px;
+  }
+
+  .judul-materi-html {
+    width: 260px;
+    height: 230px;
+    border-radius: 8px 0px 8px 8px;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  
+  .judul-materi-html p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 85px;
+  }
+  
+  .judul-materi-html a{
+    padding: 20px 51px;
+    border-radius: 20px 0px 20px 20px;
+  }
+  
+  .judul-materi-html a:hover{
+    color: #000000;
+    padding: 10px 50px;
+    border-radius: 20px 0px 20px 20px;
+    background-color: #F5A705;
+  }
+  
+  .judul-materi-css {
+    width: 260px;
+    height: 230px;
+    border-radius: 8px 0px 8px 8px;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  
+  .judul-materi-css p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 90px;
+  }
+  
+  .judul-materi-css a{
+    padding: 10px 70px;
+    border-radius: 20px 0px 20px 20px;
+  }
+  
+  .judul-materi-css a:hover{
+    color: #000000;
+    padding: 20px 82px;
+    border-radius: 20px 0px 20px 20px;
+    background-color: rgb(144, 219, 253) ;
+  }
+
+  .judul-materi-javascript {
+    width: 260px;
+    height: 230px;
+    border-radius: 8px 0px 8px 8px;
+    margin-top: 40px;
+    margin-left: 10px;
+  }
+  
+  .judul-materi-javascript p{
+    font-size: 37px;
+    font-weight: bold;
+    margin-top: 90px;
+  }
+  
+  .judul-materi-javascript a{
+    padding: 23px;
+  }
+  
+  .judul-materi-javascript a:hover{
+    color: #000000;
+    padding: 20px 23px;
+    border-radius: 20px 0px 20px 20px;
+    background-color: rgb(253, 149, 229) ;
+  }
+
+  .penjelasan-materi {
+    height: 220px;
+    border-radius: 0px 8px 8px 8px;
+    background-color: rgb(255, 255, 255) ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .penjelasan-materi h1{
+    font-size: 20px;
+  }
+  
+  .penjelasan-materi p{
+    font-size: 15px;
+  }
+
+  .penjelasan-materi a{
+    font-size: 10px;
+    padding: 10px 30px ;
+    border-radius: 15px;
+  }
+  
+  .penjelasan-materi a:hover{
+    font-size: 10px;
+    padding: 10px ;
+  }
+
+
+  .selanjutnya-judul h1{
+    text-align: center;
+    font-size: 42px;
+    margin: 0px;
+    padding-top: 20px;
+  }
+  
+  .selanjutnya-judul p{
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .daftar-isi-materi h1{
+    font-size: 19px;
+  }
+
+  .daftar-isi-materi li{
+    font-size: 11px;
+  }
+  .Penjelasan-html p{
+    padding-left: 20px;
+    font-size: 11px;
+  }
+
+  .pilihan-materi li a {
+    display: block;
+    color: rgb(10, 33, 72);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 10px;
+  }
+
+  .pilihan-materi li {
+    background-color: rgb(231, 229, 229);
+  }
+
+  .footer {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+  }
+  
+  .footer-isi{
+    width: 300px;
+    margin: 0px 0px;
+    padding-right: 25px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .logo-footer{
+    width: 160px;
+    height: 40px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .footer-isi a {
+    float: left;
+    text-decoration: none;
+    color: rgb(3, 11, 26);
+    font-size: 10px;
+    width: 100%;
+    padding: 5px 0px;
+  }
+  
+  .footer-isi a:hover {
+    color: #F5A705;
+  }
+  
+  .p1{
+    font-family: calibri;
+    font-size: 10px;
+    color: rgb(3, 11, 26);  
+  }
+}

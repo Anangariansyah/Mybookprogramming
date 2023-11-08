@@ -1,0 +1,457 @@
+
+
+body {
+    margin: 0;
+    font-family: "Helvetica";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+.header-navigation {
+    float: left;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+}
+
+.header-nav-logo { 
+    width: 250px;
+    float: left;
+    margin-left: 10px;    
+}
+
+.logo{
+  width: 330px;
+  height: 70px;
+}
+
+.header-nav-menu { 
+    float: right;
+    margin-right: 10px;  
+}
+
+.header-nav-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+.header-nav-menu li {
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+}
+  
+.header-nav-menu li a {
+    border-radius: 20px;
+    display: block;
+    color: rgb(10, 33, 72);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+.header-nav-menu li a:hover {
+    background-color: #F5A705;
+    color: rgb(80, 79, 79);
+  }
+
+.header-nav-menu.active {
+    background-color: #36341a;
+    color: rgb(80, 79, 79);
+  }
+
+
+.header-mtr {
+    float: left;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(3, 11, 26);
+}
+
+.header-mtr ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(3, 11, 26);
+  }
+  
+.header-mtr li {
+    width: 150px;
+    float: left;
+}
+  
+.header-mtr li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+.header-mtr li a:hover {
+    background-color: #F5A705;
+    color: rgb(255, 255, 255);
+  }
+
+.sidebar {
+  float: left;
+  margin-top: 70px;
+  width: 100%;
+  height: 580px;
+  text-align: center;
+  background-color: rgb(3, 11, 26);
+  background-image: url("wl2.png");
+  background-attachment: fixed;
+}
+
+.sidebar-text {
+  width: 400px;
+  margin: 200px 200px;
+}
+
+.img-komputer{ 
+  float: right;
+  margin: 80px 30px;
+  width: 600px;
+  height: 400px;
+}
+
+.sidebar-text h1{
+  font-size: 60px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.sidebar-text h2{
+  font-size: 22px;
+  color: #F5A705;
+}
+
+.sidebar-text a{
+  font-size: 23px;
+  color: rgb(3, 11, 26);
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #aa7305;
+}
+
+.sidebar-text a:hover{
+  color: rgb(3, 11, 26);
+  background-color: #F5A705;
+}
+
+
+
+/* KONTEN MAIN URUTAN BELAJAR */
+.content-urutan {
+  float: left;
+  width: 100%;
+  background-color: rgb(3, 11, 26);
+}
+
+.judul-step {
+  margin: 0 auto;
+  width: 60%;
+  padding-top: 200px;
+  color: #fffdeb;
+  font-family: calibri;
+  background-color: rgb(3, 11, 26);
+}
+
+.judul-step h1{
+  text-align: center;
+  font-size: 80px;
+  margin: 0px;
+}
+
+.judul-step p{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+
+.urutan-step {
+  width: 100%;
+  margin: 0px auto;
+  font-family: calibri;
+  display: flex;
+}
+
+.judul-materi-html {
+  width: 600px;
+  height: 200px;
+  border-radius: 40px 0px 40px 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color: #F5A705 ;
+}
+
+.judul-materi-html p{
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 52px;
+}
+
+.judul-materi-html a{
+  color: rgb(0, 0, 0);
+  padding: 52px 191px;
+  border-radius: 40px 0px 40px 40px;
+}
+
+.judul-materi-html a:hover{
+  color: #000000;
+  padding: 52px 191px;
+  border-radius: 40px 0px 40px 40px;
+  background-color: #d69003;
+}
+
+.judul-materi-css {
+  width: 600px;
+  height: 200px;
+  border-radius: 40px 0px 40px 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color: rgb(144, 219, 253) ;
+  color: #fffdeb;
+}
+
+.judul-materi-css p{
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 52px;
+}
+
+.judul-materi-css a{
+  color: #000000;
+  padding: 52px 229px;
+  border-radius: 40px 0px 40px 40px;
+}
+
+.judul-materi-css a:hover{
+  color: #333333;
+  padding: 52px 229px;
+  border-radius: 40px 0px 40px 40px;
+  background-color: rgb(136, 192, 218);
+}
+
+.judul-materi-javascript {
+  width: 600px;
+  height: 200px;
+  border-radius: 40px 0px 40px 40px;
+  margin-top: 40px;
+  margin-left: 20px;
+  background-color: rgb(253, 149, 229) ;
+  color: #fffdeb;
+}
+
+.judul-materi-javascript p{
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 52px;
+}
+
+.judul-materi-javascript a{
+  color: #000000;
+  padding: 52px 123px;
+  border-radius: 40px 0px 40px 40px;
+}
+
+.judul-materi-javascript a:hover{
+  color: #333333;
+  padding: 52px 123px;
+  border-radius: 40px 0px 40px 40px;
+  background-color: rgb(212, 126, 192);
+}
+
+.pemisah {
+  width: 8px;
+  height: 270px;
+  margin: 0 20px;
+  background-color: rgb(255, 255, 255) ;
+  color: #fffdeb;
+}
+
+
+.penjelasan-materi {
+  width: 600px;
+  height: 200px;
+  margin-top: 40px;
+  margin-right: 20px;
+  border-radius: 0px 40px 40px 40px;
+  background-color: rgb(255, 255, 255) ;
+  color: rgb(3, 11, 26);
+  padding-left: 20px;
+}
+
+.penjelasan-materi h1{
+  font-size: 30px;
+}
+
+.penjelasan-materi p{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+
+.penjelasan-materi a{
+  background-color: rgb(27, 172, 63);
+  font-size: 20px;
+  font-family: calibri;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.penjelasan-materi a:hover{
+  background-color: rgb(45, 102, 59);
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+/* ===================== PENUTUP KONTEN PENJELASAN MATERI ======================== */
+
+/* KONTEN MAIN URUTAN SETELAH PENJELASAN */
+
+.selanjutnya {
+  float: left;
+  width: 100%;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(3, 11, 26);
+}
+
+.selanjutnya-judul {
+  margin: 0 auto;
+  width: 60%;
+  font-family: calibri;
+}
+
+.selanjutnya-judul h1{
+  text-align: center;
+  font-size: 80px;
+  margin: 0px;
+}
+
+.selanjutnya-judul p{
+  text-align: center;
+  font-size: 25px;
+}
+
+/* ===================== PENUTUP KONTEN URUTAN BELAJAR ======================== */
+
+/* ===================== BERANDA HTML ======================== */
+.Penjelasan-html{
+  margin: 0px auto;
+  width: 100%;
+  padding: 3px;
+  background-color: rgb(204, 221, 255);
+  font-family: calibri;
+}
+
+.Penjelasan-html h1{
+  padding-left: 20px;
+}
+
+.Penjelasan-html p{
+  padding-left: 20px;
+}
+
+.Penjelasan-html a{
+  float: right;
+
+}
+
+.daftar-isi-materi {
+  margin: 120px auto;
+  width: 80%;
+  background-color: rgb(255, 255, 255);
+  font-family: calibri;
+}
+
+.pilihan-materi{
+  width: 100%;
+  font-family: calibri;
+}
+
+.pilihan-materi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pilihan-materi li {
+  width: 100%;
+  background-color: rgb(206, 206, 206);
+  border-bottom: solid 1px #fff;
+}
+
+.pilihan-materi li a {
+  display: block;
+  color: rgb(10, 33, 72);
+  padding: 10px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.pilihan-materi li a:hover {
+  background-color: #F5A705;
+  color: rgb(0, 0, 0);
+}
+/* ===================== PENUTUP KONTEN BERANDA HTML ======================== */
+/* ===================== FOOTER ======================== */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  font-family: calibri;
+  font-size: 20px;
+  color: rgb(2, 7, 17);
+  border-top: solid 1px rgb(141, 141, 141);
+}
+
+.logo-footer{
+  width: 400px;
+  height: 100px;
+}
+
+.footer-isi{
+  width: 400px;
+  height: 300px;
+  margin: 10px 60px;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer-isi a {
+  float: left;
+  text-decoration: none;
+  color: rgb(3, 11, 26);
+  font-size: 15px;
+  width: 100%;
+  padding: 5px 0px;
+}
+
+.footer-isi a:hover {
+  color: #F5A705;
+}
+
+.p1{
+  font-family: calibri;
+  font-size: 15px;
+  color: rgb(3, 11, 26);  
+}
+
